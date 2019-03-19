@@ -4,6 +4,8 @@ var operator;
 var result;
 
 function operate(operator, num1, num2) {
+    num1=parseInt(num1);
+    num2=parseInt(num2);
     if (operator === "+") {
         return (num1 + num2)
     } else if (operator === "-") {
