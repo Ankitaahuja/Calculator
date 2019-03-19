@@ -1,0 +1,55 @@
+.calculator{
+    width: 50%;
+    margin-left:200px;
+    margin-top: 1   0px;
+    background-color: rgb(226, 216, 216);
+    height: 543px;
+
+}
+
+.display{
+    
+    width: 99.4%;
+    margin-top: 80px;
+    background-color: rgba(255, 255, 255, 0.795);
+    height: 80px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 20px;
+    
+}
+
+.clear{
+    font-size: medium;
+    
+}
+
+.result{
+    font-size:50px;
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-gap: 20px;
+    border: 2px solid black;
+
+}
+   
+.item {
+    /* We center the contents of these items. You can also do this with flexbox too! */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(12, 12, 12, 0.03);
+    border-radius: 3px;
+    font-size: 35px;
+    background-color: rgba(186, 187, 185, 0.123); /* best colour */
+  }
+  
+
+ .equal{
+     background-color:  rgb(163, 163, 163);;
+ }
